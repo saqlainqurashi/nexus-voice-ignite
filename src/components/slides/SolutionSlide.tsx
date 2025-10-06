@@ -40,7 +40,7 @@ const SolutionSlide = () => {
             return (
               <div
                 key={index}
-                className="p-6 rounded-xl bg-card/50 border border-border hover:border-primary transition-all hover:shadow-glow-cyan group"
+                className="p-6 rounded-xl bg-card/50 border border-border hover:border-primary transition-all hover:shadow-glow-red group"
               >
                 <div className="flex items-center gap-4 mb-3">
                   <Icon className="h-6 w-6 text-primary" />
@@ -54,7 +54,7 @@ const SolutionSlide = () => {
           })}
         </div>
 
-        <div className="p-8 rounded-xl bg-gradient-accent text-primary-foreground border border-primary shadow-glow-cyan">
+        <div className="p-8 rounded-xl bg-gradient-accent text-primary-foreground border border-primary shadow-glow-red">
           <h3 className="text-2xl font-bold mb-4">Key Capabilities</h3>
           <ul className="space-y-3 text-lg">
             <li className="flex items-center gap-3">

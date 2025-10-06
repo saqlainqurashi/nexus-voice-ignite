@@ -40,7 +40,7 @@ const ProblemSlide = () => {
             return (
               <div
                 key={index}
-                className="p-8 rounded-xl bg-card/50 border border-border hover:border-primary transition-all hover:shadow-glow-cyan group"
+                className="p-8 rounded-xl bg-card/50 border border-border hover:border-primary transition-all hover:shadow-glow-red group"
               >
                 <div className="flex items-start gap-6">
                   <div className="p-4 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors">

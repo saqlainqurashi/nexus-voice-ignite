@@ -53,7 +53,7 @@ export default {
         'gradient-accent': 'var(--gradient-accent)',
       },
       boxShadow: {
-        'glow-cyan': 'var(--glow-cyan)',
+        'glow-red': 'var(--glow-red)',
       },
       transitionTimingFunction: {
         'smooth': 'var(--transition-smooth)',

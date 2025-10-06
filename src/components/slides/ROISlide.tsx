@@ -13,7 +13,7 @@ const ROISlide = () => {
         </p>
 
         <div className="grid grid-cols-3 gap-6 mb-12">
-          <div className="p-8 rounded-xl bg-card/50 border border-primary hover:shadow-glow-cyan transition-all text-center">
+          <div className="p-8 rounded-xl bg-card/50 border border-primary hover:shadow-glow-red transition-all text-center">
             <div className="inline-flex p-4 rounded-lg bg-primary/10 mb-4">
               <DollarSign className="h-10 w-10 text-primary" />
             </div>
@@ -21,7 +21,7 @@ const ROISlide = () => {
             <p className="text-muted-foreground">Cost Savings</p>
           </div>
 
-          <div className="p-8 rounded-xl bg-card/50 border border-primary hover:shadow-glow-cyan transition-all text-center">
+          <div className="p-8 rounded-xl bg-card/50 border border-primary hover:shadow-glow-red transition-all text-center">
             <div className="inline-flex p-4 rounded-lg bg-primary/10 mb-4">
               <Calendar className="h-10 w-10 text-primary" />
             </div>
@@ -29,7 +29,7 @@ const ROISlide = () => {
             <p className="text-muted-foreground">To Full ROI</p>
           </div>
 
-          <div className="p-8 rounded-xl bg-card/50 border border-primary hover:shadow-glow-cyan transition-all text-center">
+          <div className="p-8 rounded-xl bg-card/50 border border-primary hover:shadow-glow-red transition-all text-center">
             <div className="inline-flex p-4 rounded-lg bg-primary/10 mb-4">
               <TrendingUp className="h-10 w-10 text-primary" />
             </div>
@@ -38,7 +38,7 @@ const ROISlide = () => {
           </div>
         </div>
 
-        <div className="p-10 rounded-xl bg-gradient-accent text-primary-foreground shadow-glow-cyan">
+        <div className="p-10 rounded-xl bg-gradient-accent text-primary-foreground shadow-glow-red">
           <h3 className="text-3xl font-bold mb-6 text-center">
             Ready to Transform Your Operations?
           </h3>

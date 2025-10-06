@@ -41,7 +41,7 @@ const Presentation = () => {
       </div>
 
       {/* Navigation Controls */}
-      <div className="fixed bottom-8 left-1/2 -translate-x-1/2 flex items-center gap-4 bg-card/80 backdrop-blur-sm px-6 py-3 rounded-full border border-border shadow-glow-cyan">
+      <div className="fixed bottom-8 left-1/2 -translate-x-1/2 flex items-center gap-4 bg-card/80 backdrop-blur-sm px-6 py-3 rounded-full border border-border shadow-glow-red">
         <Button
           variant="ghost"
           size="icon"
@@ -58,7 +58,7 @@ const Presentation = () => {
               onClick={() => setCurrentSlide(index)}
               className={`w-2 h-2 rounded-full transition-all duration-300 ${
                 index === currentSlide
-                  ? "bg-primary w-8 shadow-glow-cyan"
+                  ? "bg-primary w-8 shadow-glow-red"
                   : "bg-muted hover:bg-muted-foreground"
               }`}
               aria-label={`Go to slide ${index + 1}`}

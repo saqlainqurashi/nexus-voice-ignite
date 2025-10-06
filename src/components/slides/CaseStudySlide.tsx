@@ -11,7 +11,7 @@ const CaseStudySlide = () => {
           Real results from a leading insurance provider
         </p>
 
-        <div className="p-10 rounded-xl bg-card/50 border border-primary shadow-glow-cyan">
+        <div className="p-10 rounded-xl bg-card/50 border border-primary shadow-glow-red">
           <div className="flex items-center gap-4 mb-8">
             <div className="p-4 rounded-lg bg-primary/10">
               <Building2 className="h-10 w-10 text-primary" />

@@ -50,7 +50,7 @@ const WhyChooseSlide = () => {
             return (
               <div
                 key={index}
-                className="p-8 rounded-xl bg-card/50 border border-border hover:border-primary transition-all hover:shadow-glow-cyan group"
+                className="p-8 rounded-xl bg-card/50 border border-border hover:border-primary transition-all hover:shadow-glow-red group"
               >
                 <div className="flex flex-col items-center text-center mb-6">
                   <div className="p-4 rounded-lg bg-primary/10 group-hover:bg-primary/20 transition-colors mb-4">
@@ -77,7 +77,7 @@ const WhyChooseSlide = () => {
           })}
         </div>
 
-        <div className="mt-12 p-6 rounded-xl bg-gradient-accent text-primary-foreground text-center shadow-glow-cyan">
+        <div className="mt-12 p-6 rounded-xl bg-gradient-accent text-primary-foreground text-center shadow-glow-red">
           <p className="text-lg font-semibold">
             Trusted by leading insurance companies across the United States
           </p>

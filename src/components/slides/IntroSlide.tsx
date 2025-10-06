@@ -8,7 +8,7 @@ const IntroSlide = () => {
           <h1 className="text-6xl font-bold text-foreground mb-2">
             Growth <span className="text-primary">Nexus</span>
           </h1>
-          <div className="h-1 bg-gradient-accent rounded-full shadow-glow-cyan"></div>
+          <div className="h-1 bg-gradient-accent rounded-full shadow-glow-red"></div>
         </div>
 
         <h2 className="text-4xl font-semibold text-foreground mt-8">
@@ -20,15 +20,15 @@ const IntroSlide = () => {
         </p>
 
         <div className="grid grid-cols-3 gap-8 mt-16 max-w-3xl mx-auto">
-          <div className="flex flex-col items-center gap-3 p-6 rounded-lg bg-card/50 border border-border hover:border-primary transition-all hover:shadow-glow-cyan">
+          <div className="flex flex-col items-center gap-3 p-6 rounded-lg bg-card/50 border border-border hover:border-primary transition-all hover:shadow-glow-red">
             <MessageSquare className="h-12 w-12 text-primary" />
             <span className="text-foreground font-medium">AI Chatbots</span>
           </div>
-          <div className="flex flex-col items-center gap-3 p-6 rounded-lg bg-card/50 border border-border hover:border-primary transition-all hover:shadow-glow-cyan">
+          <div className="flex flex-col items-center gap-3 p-6 rounded-lg bg-card/50 border border-border hover:border-primary transition-all hover:shadow-glow-red">
             <Bot className="h-12 w-12 text-primary" />
             <span className="text-foreground font-medium">AI Calling Agents</span>
           </div>
-          <div className="flex flex-col items-center gap-3 p-6 rounded-lg bg-card/50 border border-border hover:border-primary transition-all hover:shadow-glow-cyan">
+          <div className="flex flex-col items-center gap-3 p-6 rounded-lg bg-card/50 border border-border hover:border-primary transition-all hover:shadow-glow-red">
             <Workflow className="h-12 w-12 text-primary" />
             <span className="text-foreground font-medium">Workflow Automation</span>
           </div>
